@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" text="text/css"href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   
+    <title>Achelia</title>
+</head>
+<body>
+    
+
+    <!-- Add animations for every section, dedicated to the section, like moon drops etc
+    Also add so that animations happen on scroll once
+    Finish the poem -->
+    <div id="section1">
+        
+        <header id="fancy">Achelia</header>
+
+    </div>
+
+    <div id="section2">
+        <div id="card">
+            <div>Rappelle-toi de notre rencontre première</div>
+            <div>Tu ignorais que très bientôt nous serions unis</div>
+            <div>Je m'en souviens comme si c'était hier</div>
+            <div>Mais aujourd'hui tu me veux pour la vie</div>
+        </div>
+    </div>
+    
+    <div id="section3">
+        <div id="card2">
+            <div>Achelia ton prénom résonne dans ma tête<br>
+            Je ne t'ai jamais écrit de poème<br>
+            Je ne t'apprécie pas parfois; je suis bête<br> 
+            Tu es terriblement belle et tu m'aimes</div>
+        </div>
+    </div>
+
+    <div id="section4">
+        <div id="card3">
+            <div>La vie de rêve ça sera toi et moi</div>
+            <div>Demande-moi la lune et je te dirais</div>
+            <div>Il n'existe rien de plus beau que toi</div>
+            <div>Et n'y a rien que je ne puisse pas avoir</div>
+        </div>     
+    </div>
+
+    
+    <div id="section5">
+        <div id="card4">
+            <div>Je veux la plus belle de toutes étoiles</div>
+            <div>Je veux qu'elle se consume pour moi</div>
+            <div>Avec amour je la rendrais éternelle</div>
+            <div>Et elle me fera vivre éternellement</div>
+            <div id="addToMe"></div>
+        </div>
+    </div>
+
+    <script> 
+        let cards = document.getElementById('card4');
+        let secret = document.getElementById('section5');
+        let once = 0;
+        let addhere = document.getElementById('addToMe');
+        document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        if (evt.keyCode == 72 && once == 0) {
+            cards.style.backgroundColor = "red";
+            addhere.innerHTML += "<button class='secretBtn' onclick='myBtn()'>Click</button>";   
+            once++;
+        }
+        };
+        function myBtn() {
+        addhere.textContent = "Go ken";
+        addhere.style.color = "white";
+        
+    }
+
+    </script>
+    
+
+    <div id="section6" tabindex="0">
+        <div id="card5">
+            <div>Le ciel du matin est comme tes yeux</div>
+            <div>Le soleil se lève et le rend heureux</div>
+            <div>Tes cheveux sont élégant comme des roses</div>
+            <div>Et moi je ne me lasse pas de me lever</div>
+        </div>
+    </div>
+    
+
+
+    <div id="section7">
+        <div id="card-queen">
+           <div class="circle"></div>
+           <img src="imgs/image-from-rawpixel-id-6286301-svg.svg" alt="">
+            <div class="content">   
+                
+                <div><p>Ачелия искам те, мечтая за теб.</p> 
+                Най-елегантната красавица 
+                <p>Ачелия обичам те кралице моя.</p></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>24/07/2003 c'est ma date préférée ❤️</footer>
+    
+
+    <script src="scripts/main.js"></script>
+
+
+
+</body>
+</html>
