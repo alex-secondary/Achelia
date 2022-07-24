@@ -15,7 +15,7 @@ body {
 header {
     color: #ff00ea;
     font-weight: 300;
-    font-size: 7rem;
+    font-size: 8rem;
     text-align: center;
     font-family: Helvetica, sans-serif;
     font-style: italic;
@@ -44,7 +44,7 @@ header {
 }
 
 #section2 div {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #section1 .fade {
@@ -110,7 +110,7 @@ header {
 
 #section3 div {
     font-style: italic;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #section4 {
@@ -123,7 +123,7 @@ header {
 
 #section4 div {
     font-style: italic;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #section4 #card3 {
@@ -143,7 +143,7 @@ header {
 
 #section5 div {
     font-style: italic;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #section5 #card4 {
@@ -172,7 +172,7 @@ header {
 
 #section6 div {
     font-style: italic;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #section6 #card5 {
